@@ -1,0 +1,44 @@
+.parent {
+  @apply absolute top-5 right-5;
+}
+@media only screen and (max-width: 768px) {
+  .parent {
+    @apply top-2 right-2;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .parent {
+    @apply top-1 right-1;
+  }
+}
+.parent > button {
+  @apply cursor-pointer border-none outline-none bg-bgColor hover:bg-black transition-colors py-2 px-4 text-white;
+}
+@media only screen and (max-width: 480px) {
+  .parent > button {
+    @apply px-3 py-1.5;
+  }
+}
+.parent > button.active {
+  @apply bg-black;
+}
+.parent > article {
+  @apply animate-scaleIn absolute right-0 top-10 bg-bgColor text-white text-sm px-4 text-left;
+  width: 28rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 768px) {
+  .parent > article {
+    width: 26.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .parent > article {
+    @apply top-8 px-2 z-20;
+    font-size: 0.8rem;
+    width: 19.5rem;
+  }
+  .parent > article > p {
+    @apply my-2;
+  }
+}/*# sourceMappingURL=DescriptionButton.module.css.map */

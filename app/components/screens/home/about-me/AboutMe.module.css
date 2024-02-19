@@ -1,0 +1,73 @@
+.me {
+  @apply mt-40 mb-6 text-center bg-zinc-900 relative;
+}
+@media only screen and (max-width: 1024px) {
+  .me {
+    @apply mt-28;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .me {
+    @apply mt-20 mb-4;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .me {
+    @apply mt-16 mb-3;
+  }
+}
+.me .image-wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .me .image-wrapper {
+    @apply mb-4;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .me .image-wrapper {
+    @apply mb-2;
+  }
+}
+.me .image-wrapper > span {
+  margin-top: -3rem !important;
+}
+@media only screen and (max-width: 768px) {
+  .me .image-wrapper > span {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .me .image-wrapper > span {
+    width: 120px !important;
+    height: 120px !important;
+    margin-top: -2.5rem !important;
+  }
+}
+.me .image-wrapper .image {
+  @apply rounded-full;
+}
+.me .heading {
+  @apply mb-5 text-3xl font-semibold text-white;
+}
+@media only screen and (max-width: 768px) {
+  .me .heading {
+    @apply text-2xl mb-4;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .me .heading {
+    @apply mb-2 text-2xl;
+  }
+}
+.me .heading > span {
+  @apply mr-2;
+}
+@media only screen and (max-width: 480px) {
+  .me .heading > span {
+    @apply mr-1;
+  }
+}/*# sourceMappingURL=AboutMe.module.css.map */
