@@ -1,5 +1,5 @@
 const me = {
-	siteName: 'Red Links',
+	siteName: 'Kuldik',
 	avatar: '/avatar.jpeg',
 	description:
 		'<p>My name is Tim. Im 19 years old. I am a junior frotend developer. My work experience is more than 6 months.</p>' +

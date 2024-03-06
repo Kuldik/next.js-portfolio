@@ -8,7 +8,7 @@ import RecentVideos from './recent-videos/RecentVideos'
 const Home = ({ links, me }) => {
 	return (
 		<section className={styles.section}>
-			<MetaTitle title="RED Links | Все полезные ссылки тут" />
+			<MetaTitle title="Kuldik Portfolio" />
 			<div className={styles.container}>
 				<AboutMe me={me} />
 				{/* <RecentVideos /> */}

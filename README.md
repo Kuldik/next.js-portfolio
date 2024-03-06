@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+permalink: pages_app.js
+
 ## Getting Started
 
 First, run the development server:
@@ -18,17 +20,25 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Used stack: 
-### CSS Tailwind <br>
-### Axios<br>
-### Classnames<br>
-### Html-react-parser<br>
-### Next<br>
-### React<br>
-### React-dom<br>
-### React-query<br>
-### Sass<br>
+## Used stack:
 
+### CSS Tailwind <br>
+
+### Axios<br>
+
+### Classnames<br>
+
+### Html-react-parser<br>
+
+### Next<br>
+
+### React<br>
+
+### React-dom<br>
+
+### React-query<br>
+
+### Sass<br>
 
 ## Learn More
 
