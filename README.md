@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ---
 
-## permalink: /pages/app.js
+permalink: /pages/app.js
 
 ## Getting Started
 
